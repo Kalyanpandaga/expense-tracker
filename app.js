@@ -8,8 +8,8 @@ const { sequelize } = require('./models');
 const app = express();
 app.use(bodyParser.json());
 
-app.use('/api', authRoutes);
-app.use('/api', transactionRoutes);
+app.use('', authRoutes);
+app.use('', transactionRoutes);
 
 console.log(process.env.PORT)
 
