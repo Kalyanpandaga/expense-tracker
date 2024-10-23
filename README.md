@@ -30,7 +30,7 @@ This project is a **Personal Expense Tracker** backend built using Node.js, Expr
 ### 1. Clone the Repository
 
 ```bash
-git clone https://github.com/yourusername/expense-tracker.git
+git clone https://github.com/Kalyanpandaga/expense-tracker
 cd expense-tracker
 ```
 
@@ -228,7 +228,7 @@ Use npm start to start the server.
      }
      ```
 
-  ![Update a Transaction API](./assets/screenshots/update-trasaction api.png)
+  ![Update a Transaction API](./assets/screenshots/update-trasaction-api.png)
 
 5. **Delete a Transaction**
    - **Endpoint**: `DELETE /transactions/:id`
