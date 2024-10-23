@@ -13,10 +13,6 @@ This project is a **Personal Expense Tracker** backend built using Node.js, Expr
     - [Authentication API](#authentication-api)
     - [Transaction API](#transaction-api)
     - [Summary API](#summary-api)
-5. [Postman API Testing](#postman-api-testing)
-6. [Environment Variables](#environment-variables)
-7. [Screenshots](#screenshots)
-
 ---
 
 ## Features
@@ -49,10 +45,11 @@ touch .env
 ```
  Add the following environment variables in the .env file:
 
+```bash
 PORT=5000
 ACCESS_TOKEN_SECRET=your_access_token_secret
 REFRESH_TOKEN_SECRET=your_refresh_token_secret
-
+```
 
 ### 4. Initialize Database
 Ensure SQLite is installed, and Sequelize is correctly configured in your project.
